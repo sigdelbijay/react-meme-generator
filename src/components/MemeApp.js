@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import MemeGenerator from "./MemeGenerator";
+import FunctionalMemeGenerator from "./FunctionalMemeGenerator";
 
 const MemeApp = () => {
   return (
     <div>
       <Header />
-      <MemeGenerator />
+      <FunctionalMemeGenerator />
     </div>
   );
 };
